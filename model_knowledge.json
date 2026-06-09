@@ -1,0 +1,37 @@
+{
+  "rules": [
+    {
+      "project_type": "simple",
+      "recommendation": {
+        "embedding": "CodeT5",
+        "model": "Logistic Regression",
+        "optimizer": "Optuna",
+        "expected_f1": 0.55,
+        "expected_mcc": 0.22,
+        "reason": "Simple projects benefit from linear models with optimized hyperparameters."
+      }
+    },
+    {
+      "project_type": "medium",
+      "recommendation": {
+        "embedding": "CodeT5",
+        "model": "Random Forest",
+        "optimizer": "FLAML",
+        "expected_f1": 0.60,
+        "expected_mcc": 0.25,
+        "reason": "Medium complexity projects require non-linear models."
+      }
+    },
+    {
+      "project_type": "complex",
+      "recommendation": {
+        "embedding": "CodeT5",
+        "model": "XGBoost",
+        "optimizer": "Optuna",
+        "expected_f1": 0.65,
+        "expected_mcc": 0.30,
+        "reason": "Complex projects benefit from gradient boosting models."
+      }
+    }
+  ]
+}

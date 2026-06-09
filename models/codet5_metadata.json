@@ -1,0 +1,7 @@
+{
+    "embedding": "CodeT5 (Improved)",
+    "best_model": "xgboost",
+    "f1": 0.5434962717481359,
+    "mcc": 0.18367274030659506,
+    "accuracy": 0.5966325036603221
+}

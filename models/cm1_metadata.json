@@ -1,0 +1,8 @@
+{
+    "dataset": "CM1",
+    "best_model": "lgbm",
+    "f1": 0.2,
+    "mcc": 0.117967526404102,
+    "accuracy": 0.84,
+    "train_time": 0.05224156379699707
+}
